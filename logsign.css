@@ -1,0 +1,61 @@
+.logsignwebname
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    margin:10px 0;
+}
+.logsignwebname a
+{
+    color:black;
+}
+
+.logsignform
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.logsignform h2
+{
+    margin-bottom: 40px;
+}
+.logsignform #alert
+{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #ff2c2c;
+    color: white;
+    font-size: small;
+}
+.logsignform form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+     /*background-color: aqua; */
+}
+
+.logsignform #text
+{
+    width: 300px;
+    padding: 10px 10px;
+    border: 2px solid #ec7a11;
+    border-radius: 4px;
+    font-size:16px;
+}
+.logsignform #button
+{
+    padding: 10px 60px;
+    border-radius: 20px;
+    background-color: #ec7a11;
+    color: white;
+    font-weight: bold;
+}
+.logsignform #other
+{
+    color:#ec7a11;
+}

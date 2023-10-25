@@ -1,0 +1,73 @@
+.accountcontainer
+{
+    margin-top:100px;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    justify-content:center;
+    align-items:center;
+}
+.edit
+{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+.edit div
+{
+    display:flex;
+}
+.red
+{
+    margin-top:50px;
+    gap:10px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+
+#text-change
+{
+    height: 20px;
+    width: 300px;
+    padding: 10px 10px;
+    border: 2px solid #ec7a11;
+    border-radius: 4px 0px 0px 4px;
+    font-size:14px;
+}
+#button-change
+{
+    /*height: 20px;*/
+    /*padding: 10px 60px;*/
+    /*border-radius: 20px;*/
+    background-color: #ec7a11;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    /*font-weight: bold;*/
+    text-align:center;
+    font-size:14px;
+    cursor:pointer;
+}
+
+#button-red
+{
+    background-color:white;
+    color:#ff2c2c;
+    border: 2px solid #ff2c2c;
+    border-radius:4px;
+    padding: 10px 15px;
+    width:200px;
+    text-align:center;
+    font-size:12px;
+    /*font-weight:bold;*/
+    cursor:pointer;
+}
+#button-red:hover
+{
+    background-color:#ff2c2c;
+    color:white;
+    border: 2px solid white;
+}
